@@ -1,0 +1,33 @@
+{
+  "url-zip": "https://opensource.telecomste.fr/inforx/test_export.sql.zip",
+  "file": "test_export.sql",
+  "save_days": "7",
+
+  "smb": {
+    "ip": "192.168.1.79",
+    "hostname": "debian",
+    "user": "user",
+    "password": "user",
+    "sharename": "samba-share",
+    "path": "/"
+  },
+  "email": {
+    "auth": {
+      "email": "toto@domain.com",
+      "password": "motdepasse"
+    },
+    "server": {
+      "host": "smtp.gmail.com",
+      "port": "465"
+    },
+    "send-mail": "yes",
+    "include_log": "yes",
+    "title": "Daily summary",
+    "dest": [
+      "monmail1@domain.com",
+      "monmail2@gmail.com"
+    ]
+  },
+  "notification": "always",
+  "mattermost_webhook": "https://chat.telecomste.fr/hooks/13ta3nw3e787tnxxqkyxfh5xnr"
+}
